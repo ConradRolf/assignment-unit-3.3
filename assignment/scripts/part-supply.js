@@ -34,7 +34,6 @@ console.log('A new shipment of', supplyChanges[5], 'was just recieved, the list 
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
-console.log(supplyChanges)
 for (let i=0; i<supplyChanges.length; i++) {
     console.log(supplyChanges[i]);
     if(supplyChanges[i] > 0) {
